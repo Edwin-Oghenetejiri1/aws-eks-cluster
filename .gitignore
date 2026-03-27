@@ -10,3 +10,4 @@ override.tf
 # AWS credentials
 .aws/
 awscliv2.zip
+aws/
