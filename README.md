@@ -112,6 +112,17 @@ terraform destroy
 | `cluster_version` | Kubernetes version | `1.30` |
 | `vpc_cidr` | VPC CIDR block | `10.0.0.0/16` |
 
+## Cluster Nodes
+
+The EKS cluster is running with 2 worker nodes across multiple availability zones:
+
+![EKS Nodes](./screenshots/nodes.png)
+
+### Node Details
+- **Kubernetes Version:** v1.30.14-eks-f69f56f
+- **Status:** Ready
+- **Region:** us-west-2
+
 ## Costs
 
 Be aware this project provisions billable AWS resources including EKS, NAT Gateways, and EC2 instances. **Always run `terraform destroy` when done to avoid unexpected charges.**
